@@ -1,23 +1,29 @@
-//
-//  main.cpp
-//  hello, world
-//
-//  Created by Maggie  on 9/4/13.
-//  Copyright (c) 2013 Maggie . All rights reserved.
-//
-
+//Maggie
+//Sept 5 2013
+//Circle program
+;
 #include <iostream>
+#include <math.h>
 using namespace std;
 
-int main(int argc, const char * argv[])
+int main()
 {
+    int area, circumference, r;
+    const int pi = 3.14;
  
-    cout<<"|------|\n";
-    cout<<"|Maggie|\n";
-    cout<<"|______|\n";
-    
+   cout<< "Area or circumference";
+    cin>> area, circumference;
+    int If (area); {
+        cout<< "Radius?";
+        cin>> r;
+        area = r * r * pi;
+    }
+    int Else (circumference); {
+        cout<< "Radius?";
+        cin>> r;
+        circumference = pi * r * 2;
+    }
     
     return 0;
 }
 
-//this is good
