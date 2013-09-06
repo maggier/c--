@@ -1,7 +1,7 @@
 //Maggie
 //Sept 5 2013
 //Circle program
-;
+
 #include <iostream>
 #include <math.h>
 using namespace std;
@@ -10,6 +10,7 @@ int main()
 {
     int area, circumference, r;
     const int pi = 3.14;
+    //string something;
     
     cout<< "Area or circumference";
     cin>> area, circumference;
@@ -26,3 +27,5 @@ int main()
     
     return 0;
 
+
+}
